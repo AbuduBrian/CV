@@ -1,0 +1,149 @@
+
+.header {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 17.5vh;
+    width: 100%;
+    font-size: .8em;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 70%;
+    left: 200px;
+    border-bottom: grey 1px solid;
+}
+.call {
+    position: relative;
+    left: 0;
+    margin-left: 50px;
+}
+.email {
+    position: relative;
+    left: 30px;
+    margin-left: 50px;
+}
+.log {
+    margin-left: 100px;
+}
+.log img {
+    position: absolute;
+    top: -15px;
+    width: 100px;
+    height: 80px;
+}
+.time {
+    position: relative;
+    left: 90px;
+    margin-left: 50px;
+}
+.address {
+    position: relative;
+    left: 110px;
+    margin-left: 50px;
+}
+.navigation {
+    position: absolute;
+    left: 200px;
+    display: flex;
+}
+.navigation ol {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navigation p {
+    position: absolute;
+    left: 800px;
+    width: 90px;
+    padding: 5px 8px;
+    top: -5px;
+    display: flex;
+    border: black solid 1px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: blue;
+    color: whitesmoke;
+    overflow: hidden;
+}
+li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.main {
+    background-color: gray;
+    height: 50vh;
+    width: 100%;
+}
+.main h1 {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    color: ghostwhite;
+}
+.main p {
+    position: absolute;
+    left: 300px;
+    top: 235px;
+    color: rgb(70, 202, 70);
+}
+.main a {
+    position: absolute;
+    color: ghostwhite;
+    left: 300px;
+    top: 400px;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid gainsboro;
+}
+.moh {
+    width: 500px;
+    height: 360px;
+    position: relative;
+    left: 750px;
+}
+.footer {
+    background-color:tomato;
+    height: 30vh;
+    display: flex;
+    color: whitesmoke;
+}
+.top {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.head {
+    position: relative;
+    left: 20px;
+}
+.btm {
+    position: relative;
+    left: 20px;
+}
+.footer a {
+    position: relative;
+    left: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: white solid 2px;
+    border-radius: 25px;
+}
+.print {
+    background-color: rgb(139, 56, 139);
+    width: 33vw;
+    height: auto;
+}
+.graphic {
+    background-color: rgb(165, 154, 52);
+    width: 33vw;
+    height: auto;
+}
+.copying {
+    background-color: tomato;
+    width: 30vw;
+    height: auto;
+}
